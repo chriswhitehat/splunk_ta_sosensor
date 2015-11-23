@@ -1,0 +1,3 @@
+*/5 * * * * root /opt/bro/bin/broctl netstats >> /var/log/nsm/bro_stats.log
+*/10 * * * * root chmod a+r /nsm/sensor_data/*/snort-*/rules_stats*
+
